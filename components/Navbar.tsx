@@ -29,7 +29,7 @@ const Navbar = () => {
         <Button
           asChild
           variant="ghost"
-          colorPalette="red"
+          colorPalette="gray"
           size="md"
           height="40px"
           px={4}
@@ -40,7 +40,7 @@ const Navbar = () => {
         <Button
           asChild
           variant="ghost"
-          colorPalette="red"
+          colorPalette="gray"
           size="md"
           height="40px"
           px={4}
@@ -51,7 +51,7 @@ const Navbar = () => {
         <Button
           asChild
           variant="ghost"
-          colorPalette="red"
+          colorPalette="gray"
           size="md"
           height="40px"
           px={4}
@@ -62,7 +62,7 @@ const Navbar = () => {
         <Button
           asChild
           variant="ghost"
-          colorPalette="red"
+          colorPalette="gray"
           size="md"
           height="40px"
           px={4}
