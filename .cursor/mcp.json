@@ -3,6 +3,9 @@
     "chakra-ui": {
       "command": "npx",
       "args": ["-y", "@chakra-ui/react-mcp"]
+    },
+    "figma-desktop": {
+      "url": "http://127.0.0.1:3845/mcp"
     }
   }
 }
