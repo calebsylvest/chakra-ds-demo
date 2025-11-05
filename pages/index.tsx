@@ -1,4 +1,4 @@
-import { Box, Button, Code, Container, Flex, Group, Heading, Link as ChakraLink, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Code, Container, Flex, Group, Heading, Link, Stack, Text } from "@chakra-ui/react";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
@@ -19,7 +19,7 @@ const IndexPage = () => (
           <Stack gap={8}>
             <Flex bg="gray.100" p={4} rounded="md" justify="space-between" align="center">
               <Heading as="h2" fontWeight="normal">Button</Heading>
-              <ChakraLink href="https://chakra-ui.com/docs/components/button">View in docs</ChakraLink>
+              <Link href="https://chakra-ui.com/docs/components/button">View in docs</Link>
             </Flex>
             <Flex direction="column" gap={2}>
               <Heading as="h3" size="md" fontWeight="normal">Teal</Heading>
@@ -52,7 +52,7 @@ const IndexPage = () => (
           <Stack gap={8}>
           <Flex bg="gray.100" p={4} rounded="md" justify="space-between" align="center">
             <Heading as="h2" fontWeight="normal">Code</Heading>
-            <ChakraLink href="https://chakra-ui.com/docs/components/code">View in docs</ChakraLink>
+            <Link href="https://chakra-ui.com/docs/components/code">View in docs</Link>
           </Flex>
           <Flex direction="column" gap={2}>
             <Heading as="h3" size="md" fontWeight="normal">Default</Heading>
